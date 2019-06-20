@@ -1,0 +1,7 @@
+site_name: YinChao's Wiki
+nav:
+    - Home: index.md
+    - First: test.md
+    
+theme:
+    name: 'material'
