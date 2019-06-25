@@ -1,4 +1,4 @@
-![mkdocs](imags\test.jpg)
+![mkdocs](imags/test.jpg)
 
 # 需求
 
