@@ -1,7 +1,7 @@
 site_name: YinChao's Wiki
 nav:
     - Home: index.md
-    - First: test.md
+    - Tech: [test.md,my_wiki.md]
     
 theme:
     name: 'material'
