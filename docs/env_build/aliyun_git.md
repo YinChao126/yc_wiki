@@ -1,4 +1,10 @@
-![mkdocs](imags/test.jpg)
+# 阿里云搭建私有Git仓库
+
+作者：尹超
+
+日期：2019-5-23
+
+![mkdocs](../imags/test.jpg)
 
 # 需求
 

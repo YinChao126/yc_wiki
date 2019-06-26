@@ -46,6 +46,33 @@
 
 
 
+## mkdocs.yml配置详解
+
+mkdocs.yml决定了wiki的主题，名称，页面组织结构，是重要的配置文件
+
+最重要的文件组织结构如下：
+
+```python
+#假设你的文件存储结构如下：
+docs/
+	index.md
+	introduce.md
+	dir1/
+			f1.md
+			f2.md
+			dir2/
+				sf3.md
+				sf4.md
+-------------------------------------------------------
+nav:
+	- title_1: index.md  #方法1
+	- title_2:[index.md,introduce.md,dir1/f1.md] #方法2
+	- title_1:
+		- sub_title1:[index.md, dir1/f1.md] #方法3 
+		- sub_title1:
+			- sub_title2:[dir1/dir2/sf3.md, index.md] #方法4
+```
+
 
 
 ## 参考链接
@@ -54,3 +81,6 @@
 [GitHub搭建自己的wiki知识管理系统](https://blog.csdn.net/jiasike/article/details/88930624)
 
 [dokuwiki搭建自己的wiki](https://blog.csdn.net/caowei880123/article/details/60465518)
+
+[mkdocs配置详解](<https://www.mkdocs.org/user-guide/configuration/#docs_dir>)
+

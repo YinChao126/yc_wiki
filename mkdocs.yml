@@ -1,7 +1,10 @@
 site_name: YinChao's Wiki
-nav:
-    - Home: index.md
-    - Tech: [test.md,my_wiki.md]
-    
+
 theme:
     name: 'material'
+    include_sidebar: true
+    
+nav:
+    - Home: index.md
+    - env_build: [env_build/my_wiki.md, env_build/aliyun_git.md]
+    - python: python/dict.md
