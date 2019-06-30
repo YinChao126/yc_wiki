@@ -6,9 +6,9 @@
 
 备注：下文无说明时，默认df为DataFrame格式的变量
 
-# 1.  新建
+## 1. 新建
 
-方法1: 字典创建（如果不指定columns，则表头会自动排序）
+### 1.1 字典创建
 
 ```python
 from pandas import DataFrame 
@@ -17,7 +17,7 @@ data = {
     'name':['zs','ls','ww'],        
     'age':[10,20,30],        
     'sex':['m','w','m']}
-df1 = DataFrame(data) #表头自动排序
+df1 = DataFrame(data) #（如果不指定columns，则表头会自动排序）
 df2 = DataFrame(data,columns=head) #固定表头
 ```
 
@@ -35,7 +35,7 @@ df2:
 1   w   20   ls
 2   m   30   ww
 
-方法2：数组创建
+### 1.2 数组创建
 
 ```python
 import numpy as np
@@ -47,20 +47,20 @@ df2 = pd.DataFrame(ar, index = ["a","b","c"], columns = ["one", "two", "three"])
 print(df2)
 ```
 
-​          0         1         2
+          0         1         2
 0  0.646752  0.405649  0.717825
 1  0.202191  0.907458  0.590119
 2  0.347748  0.999144  0.329197
-​        one       two     three
+        one       two     three
 a  0.646752  0.405649  0.717825
 b  0.202191  0.907458  0.590119
 c  0.347748  0.999144  0.329197
 
 更详细的：https://blog.csdn.net/u010199356/article/details/85697860
 
-# 2. CSV文件读写
+## 2. CSV文件读写
 
-写CSV文件：
+### 2.1 写CSV文件
 
 ```python
 df.to_csv(file_name) #默认增加一列0~n的index标号
@@ -68,22 +68,20 @@ df.to_csv(file_name,index = False) #不带默认的index标号
 df.to_csv(file_name, mode='a', header=False) #以append方式写入，并且不带表头
 ```
 
-读CSV文件：
+### 2.2 读CSV文件
 
 ```python
 df = pd.read_csv(file_name) #如果内容是数字，可能默认读成numpy类型
 df = pd.read_csv(file_name, dtype=str) #如果内容是数字，可能默认读成numpy类型
 ```
 
-# 3. 修改
+## 3 排序
 
-## 3.1 排序
-
-### 3.1.1按行翻转
+### 3.1 按行翻转
 
 df = df[::-1]
 
-### 3.1.2 按特定列排序
+### 3.2 按特定列排序
 
 ```python
 df.sort_index()
@@ -91,7 +89,7 @@ df.sort_values(by='day')
 df.sort_values(by=['day','month'])
 ```
 
-### 3.1.3 按给定的列名重排序
+### 3.3 按给定的列名重排序
 
 ```python
 import pandas as pd
@@ -115,62 +113,11 @@ df2:   b  a  c
 
 参考链接：https://www.cnblogs.com/feigebaqi/p/9800496.html
 
-## 3.2 改写
-
-### 3.2.1 改写column
-
-方法1：
-
-\>>>a.columns = ['a','b','c']
-\>>>a
-   a  b  c
-0  1  4  7
-1  2  5  8
-2  3  6  9
-
-方法二：
-
-\>>>a.rename(columns={'A':'a', 'B':'b', 'C':'c'}, inplace = True)
-\>>>a
-   a  b  c
-0  1  4  7
-1  2  5  8
-2  3  6  9
-
-### 3.2.2 改写index
-
-df.index = pd.Index(range(len(df))) #将乱序的df的index重新设置为[0,1]  
-
-### 3.2.3 增加
-
- 如果将增加的记录是dict类型或者series类型
-
-```python
-df = df.append(dict_record,ignore_index=True) #方法1， append
-df.loc[2] = series_record #方法2， 显式合并
-```
-
-如果记录是list类型，则先转换为series，再append
-
-### 3.2.4 删除
-
-```python
-df = df.drop[index] #删除一行
-df = df.drop(index=[1,3,7]) #删除多行
-```
-
-### 3.2.5 去重
-
-```python
-interest_column = ['c1','c2']
-df= df.drop_duplicates(subset=interest_column ,keep='last') #如果interest_column的值相同，则保留后面一条记录，keep='first'则保留前面一条记录
-```
-
-# 4.元素索引
+## 4.元素索引
 
 ### 4.1 索引单个元素
 
-方法1： df.iloc[1]{3]  #类似于二维数组索引
+方法1： df.iloc[1】[3]  #类似于二维数组索引
 
 方法2： df.iloc[1,2]
 
@@ -208,24 +155,77 @@ df.loc[n] #索引低n行
 
 ```
 
-## 5. 计算
+## 5. 修改
 
-### 5.1 按列求和，求平均
+### 5.1 改写column
 
-df['column_name'].sum()
-df['column_name'].mean()
+方法1：
 
-### 5.2 求得DataFrame的索引值
+\>>>a.columns = ['a','b','c']
+\>>>a
+   a  b  c
+0  1  4  7
+1  2  5  8
+2  3  6  9
 
-pd_data.index.tolist()
+方法二：
 
-## 6.合并、拼接
+\>>>a.rename(columns={'A':'a', 'B':'b', 'C':'c'}, inplace = True)
+\>>>a
+   a  b  c
+0  1  4  7
+1  2  5  8
+2  3  6  9
+
+### 5.2 改写index
+
+df.index = pd.Index(range(len(df))) #将乱序的df的index重新设置为[0,1]  
+
+### 5.3 增加
+
+ 如果将增加的记录是dict类型或者series类型
+
+```python
+df = df.append(dict_record,ignore_index=True) #方法1， append
+df.loc[2] = series_record #方法2， 显式合并
+```
+
+如果记录是list类型，则先转换为series，再append
+
+### 5.4 删除
+
+```python
+df = df.drop[index] #删除一行
+df = df.drop(index=[1,3,7]) #删除多行
+```
+
+### 5.5 去重
+
+```python
+interest_column = ['c1','c2']
+df= df.drop_duplicates(subset=interest_column ,keep='last') #如果interest_column的值相同，则保留后面一条记录，keep='first'则保留前面一条记录
+```
+
+## 6.多个DataFrame的合并、拼接
 
 ```python
 df = pd.DateFrame(list(zip(s1,s2,s3)) #多个series合并成一个df
 df = pd.concat([d1,d2]) #多个DataFrame合并成一个df
 ```
 
-## 参考链接：
+## 7. DataFrame的计算
+
+### 7.1 按列求和，求平均
+
+```python
+df['column_name'].sum() #按列求和
+df['column_name'].mean() #按列求平均
+```
+
+### 7.2 求得DataFrame的索引值
+
+pd_data.index.tolist()
+
+## 参考链接
 
 https://www.jianshu.com/p/a6139a1352d6
