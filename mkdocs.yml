@@ -9,3 +9,4 @@ nav:
     - env_build: [env_build/my_wiki.md, env_build/aliyun_git.md]
     - python: [python/dict.md,python/file.md,python/dataframe.md]
     - linux: linux/top.md
+    - git: [git/git_reset.md]
