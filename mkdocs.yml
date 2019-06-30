@@ -7,4 +7,5 @@ theme:
 nav:
     - Home: index.md
     - env_build: [env_build/my_wiki.md, env_build/aliyun_git.md]
-    - python: python/dict.md
+    - python: [python/dict.md,python/file.md,python/dataframe.md]
+    - linux: linux/top.md
