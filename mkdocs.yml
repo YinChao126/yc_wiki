@@ -32,4 +32,17 @@ nav:
         ]
                
     - linux: linux/top.md
-    - git: [git/git_reset.md, git/aliyun_git.md]
+    
+    - git: 
+        - environment: [
+                  git/local_git.md, 
+                  git/aliyun_git.md
+        ]
+        - basic: [
+                  git/common_cmd.md,
+                  git/git_reset.md,
+                  git/add.md,
+                  git/clear.md,
+                  git/branch.md,
+                  git/branch_recovery.md
+        ]
