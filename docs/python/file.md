@@ -4,7 +4,30 @@
 
 日期：2019-6-28
 
-## 文件读写
+## 读文件
+
+```python
+mode = 'r'  #str形式读出
+mode = 'rb' #二进制读出
+with open(file_name, mode) as fh: #读文件 
+	content = fh.read() #读取完整文件，存为str
+    conente_list = fh.readlines() #按行读取，存为list
+```
+
+## 写文件
+
+```python
+mode = 'w'  #或者二进制写入 wb 
+mode = 'a' #append方式写入
+with open(file_name, mode) as fh: #读文件 
+	fh.read(content) #把所有内容完全写入
+```
+
+## 快速获取文件行数
+
+```python
+count = len(open(filename,'r').readlines())
+```
 
 ## 文件查找
 
