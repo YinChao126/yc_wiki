@@ -26,9 +26,15 @@ nav:
                   python/shell.md,
                   python/network.md,
                   python/path.md,
+                  python/regular_expression.md,
                   python/copy.md
         ]
         - usefule_module: [
+                  python/crawler_example.md,
+                  python/sort_by_num.md,
+        ]
+        - tools: [
+                  python/pyinstaller.md,
         ]
                
     - linux: linux/top.md
@@ -45,4 +51,8 @@ nav:
                   git/clear.md,
                   git/branch.md,
                   git/branch_recovery.md
+        ]
+    - tools: 
+        - tools: [
+                  tools/icon.md,
         ]
