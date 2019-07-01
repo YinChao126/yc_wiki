@@ -31,6 +31,15 @@ count = len(open(filename,'r').readlines())
 
 ## 文件查找
 
+```python
+#查找file_path下的所有文件，并将结果存入f
+from os import walk
+f = []
+for (dirpath, dirnames, filenames) in walk(file_path):
+    f.extend(filenames)
+    break
+```
+
 ## 文件夹创建
 
 ```python

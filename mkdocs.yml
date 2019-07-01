@@ -6,12 +6,30 @@ theme:
     
 nav:
     - Home: index.md
-    - env_build: [env_build/my_wiki.md, env_build/aliyun_git.md]
-    - python: [ python/dict.md,
-                python/file.md,
-                python/dataframe.md,
-                python/type.md,
-                python/list.md,
-                python/copy.md]
+    - env_build: [env_build/my_wiki.md]
+    - python: 
+        - environment: [
+                  python/python_setup.md,
+                  python/python_package.md,
+                  python/useful_package.md,
+                  python/PEP8_standard.md,
+                  python/requirements.md,
+                  python/jupyter.md,
+                  python/multi_version.md
+        ]
+        - basic: [ 
+                  python/dict.md,
+                  python/file.md,
+                  python/dataframe.md,
+                  python/type.md,
+                  python/list.md,
+                  python/shell.md,
+                  python/network.md,
+                  python/path.md,
+                  python/copy.md
+        ]
+        - usefule_module: [
+        ]
+               
     - linux: linux/top.md
-    - git: [git/git_reset.md]
+    - git: [git/git_reset.md, git/aliyun_git.md]
