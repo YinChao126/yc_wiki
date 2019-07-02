@@ -1,11 +1,18 @@
 site_name: YinChao's Wiki
+site_description: 个人知识体系
+site_author: YinChao
 
 theme:
     name: 'material'
     include_sidebar: true
+
+extra:
+  search:
+    language: 'jp'
     
 nav:
-    - Home: index.md
+    - index: index.md
+    - about: about.md
     - env_build: [env_build/my_wiki.md]
     - python: 
         - environment: [
@@ -29,7 +36,7 @@ nav:
                   python/regular_expression.md,
                   python/copy.md
         ]
-        - usefule_module: [
+        - useful_module: [
                   python/crawler_example.md,
                   python/sort_by_num.md,
         ]
@@ -55,4 +62,7 @@ nav:
     - tools: 
         - tools: [
                   tools/icon.md,
+                  tools/mkdocs.md,
         ]
+
+    - 随笔文章: []

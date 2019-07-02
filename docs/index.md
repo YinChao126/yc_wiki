@@ -1,17 +1,13 @@
 # Welcome to YinChao's Wiki
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+## 总体概览
 
-## Commands
+- about 关于作者、本站内容综述
+- tools 积累的各种实用软件，网址等
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+- article 技术经验帖、感悟等
 
-## Project layout
+- 其余均为技术栈内容
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## 技术栈结构
