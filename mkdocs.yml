@@ -59,7 +59,20 @@ nav:
                   git/branch.md,
                   git/branch_recovery.md
         ]
-    - tools: 
+        
+    - 优化技术: [
+                  opt/优化技术综述.md,
+                  opt/exp近似运算.md,
+                  opt/log快速计算.md,
+                  opt/profile工具.md,
+                  opt/除法运算.md,
+                  opt/复数求模近似运算.md,
+                  opt/快速取余.md,
+                  opt/提高cache命中率.md,
+    
+        ]
+        
+    - 常用工具: 
         - tools: [
                   tools/icon.md,
                   tools/mkdocs.md,
