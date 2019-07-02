@@ -54,3 +54,38 @@ b = strinfo.sub('python',a)
 print(b)
 ```
 
+## 一个替换实例
+
+需求： 替换文本中的版本号
+
+假设有如下文本filename.txt需要替换版本号为1.2.0：
+
+```
+ #基本格式如下：
+ xxx
+ version = '1.1.0' 
+ asfsaf
+```
+
+使用的替换语法：
+` out = re.sub(pattern, replace, src_string)`
+
+ 其中
+
+-  pattern为正则表达式，找到1.1.0这个字符串
+-  replace为1.2.0，待替换的字符串
+-  src_string为原始待替换的文本
+-  out为替换后的文本
+
+ 源码为：
+
+```python
+with open(filename, 'r') as fh:
+	content = fh.read() #读取文本
+pattern = '(?<=version = \').+(?=\')'
+out = re.sub(pattern, '1.2.0', content) #执行替换
+with open(filename, 'w') as fh: #替换后的内容写入文本
+	fh.write(out)
+```
+
+
