@@ -13,7 +13,12 @@ extra:
 nav:
     - index: index.md
     - about: about.md
-    - env_build: [env_build/my_wiki.md]
+    - 环境搭建: [
+                  env_build/my_wiki.md,
+                  env_build/tomcat.md,
+                  env_build/rabbitmq_server.md,
+                  env_build/google_ssr.md,
+        ]
     - python: 
         - environment: [
                   python/python_setup.md,
@@ -44,7 +49,26 @@ nav:
                   python/pyinstaller.md,
         ]
                
-    - linux: linux/top.md
+    - C/C++:  
+        - basic: [ 
+                  c/shift.md,
+                  c/inline.md,
+                  c/hash.md,
+                  c/file.md,
+                  c/memory.md,
+                  c/strings.md,
+                  c/vs2013_err_code.md,
+        ]
+        - useful_module: [
+                  c/merge_sort.md,
+        
+        ]
+               
+    - linux:  [   
+                  linux/top.md,
+                  linux/VM文件共享.md,
+                  linux/vim.md,
+        ]
     
     - git: 
         - environment: [
@@ -76,6 +100,7 @@ nav:
         - tools: [
                   tools/icon.md,
                   tools/mkdocs.md,
+                  tools/notepad2.md,
         ]
 
     - 随笔文章: []
