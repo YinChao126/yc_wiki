@@ -42,8 +42,11 @@ nav:
                   python/copy.md
         ]
         - useful_module: [
+                  python/auto_inform.md,
                   python/crawler_example.md,
                   python/sort_by_num.md,
+                  python/聊天机器人.md,
+                  
         ]
         - tools: [
                   python/pyinstaller.md,
