@@ -27,7 +27,8 @@ nav:
                   python/PEP8_standard.md,
                   python/requirements.md,
                   python/jupyter.md,
-                  python/multi_version.md
+                  python/multi_version.md,
+                  python/pip.md,
         ]
         - basic: [ 
                   python/dict.md,
