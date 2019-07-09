@@ -26,3 +26,15 @@ os.getcwd()
 
 os.chdir(路径)
 
+## 解析路径和文件名
+
+```python
+import ntpath
+def path_leaf(path):
+    head, tail = ntpath.split(path) #此处解析路径和文件名
+    print(head, tail)
+
+path = r'E:/GitHubCenter/SuperGuard/data.xlsx'
+file_name = path_leaf(path)
+```
+
