@@ -24,4 +24,13 @@
 
 ## 查看shell的输出结果
 
+```
+#方法1
+import os
 result = os.system('ls -al')
+
+#方法2
+import subprocess
+output = subprocess.getoutput("ls -l")
+```
+
