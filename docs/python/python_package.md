@@ -38,7 +38,23 @@ pip search xxx #搜索是否有xxx包资源
 
 Poetry项目依赖管理工具
 
+### pip不能安装、卸载、升级怎么办？
 
+例如想要升级nibabel时
+
+使用命令：`sudo pip install --upgrade nibabel`
+
+报错： 
+
+Cannot uninstall ‘nibabel’. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
+
+问题解析：
+
+旧版本依赖多，不能清晰的删除，此时应该**忽略旧版本强制升级**，即如下
+
+```
+sudo pip install nibabel --ignore-installed nibabel
+```
 
 ## 参考链接
 
