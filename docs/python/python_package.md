@@ -1,6 +1,12 @@
 # python包管理器
 
-python有许多包管理器
+## 安装的包在哪里（以Ubuntu为例）
+
+- sudo apt-get install 安装的package存放在 /usr/lib/python2.7/dist-packages目录中
+- pip 或者 easy_install安装的package存放在/usr/local/lib/python2.7/dist-packages目录中
+- 手动从源代码安装的package存放在site-packages目录中
+
+## 有哪些包管理器
 
 ```
 pip(很实用的一种)
@@ -11,7 +17,7 @@ conda
 poetry
 ```
 
-## distutils
+## 1. distutils
 
 Python自带的包管理工具，是标准库的一部分。distutils包含一个setupt.py 文件，通过执行setupt.py 进行安装包及打包的操作：
 
@@ -20,23 +26,20 @@ python setup.py install #安装包
 python setup.py sdist #发布包
 ```
 
-## pip（完全取代了easy_install）
+## 2. pip（完全取代了easy_install）
 
+### pip常用命令
+
+```
 pip --version  #检查pip的版本
 pip list #查看已经安装的包
-
 pip install xxx #安装xxx包最新版本
 pip install xxx==1.0.4 #安装xxx包1.0.4指定版本
 pip install xxx>=1.0.4 #安装xxx包1.0.4以上的版本
 pip uninstall xxx #卸载xxx包
-
 pip install --upgrade xxx #更新xxx包
-
 pip search xxx #搜索是否有xxx包资源
-
-
-
-Poetry项目依赖管理工具
+```
 
 ### pip不能安装、卸载、升级怎么办？
 
@@ -55,6 +58,10 @@ Cannot uninstall ‘nibabel’. It is a distutils installed project and thus we 
 ```
 sudo pip install nibabel --ignore-installed nibabel
 ```
+
+## 3. Poetry
+
+项目依赖管理工具
 
 ## 参考链接
 
