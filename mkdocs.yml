@@ -43,12 +43,14 @@ nav:
                   python/copy.md
         ]
         - useful_module: [
-                  python/excel操作.md,
-                  python/tkinter.md,
-                  python/auto_inform.md,
-                  python/crawler_example.md,
-                  python/sort_by_num.md,
-                  python/聊天机器人.md,
+                  python/useful_module/excel操作.md,
+                  python/useful_module/tkinter.md,
+                  python/useful_module/auto_inform.md,
+                  python/useful_module/crawler_example.md,
+                  python/useful_module/sort_by_num.md,
+                  python/useful_module/聊天机器人.md,
+                  python/useful_module/数据可视化.md,
+                  python/useful_module/usb_device.md,
                   
         ]
         - tools: [
@@ -74,6 +76,8 @@ nav:
                   linux/top.md,
                   linux/VM文件共享.md,
                   linux/vim.md,
+                  linux/压缩解压.md,
+                  linux/搜狗输入法安装.md,
         ]
     
     - git: 
