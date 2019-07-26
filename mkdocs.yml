@@ -73,6 +73,7 @@ nav:
         ]
                
     - linux:  [   
+                  linux/sleep.md,
                   linux/top.md,
                   linux/VM文件共享.md,
                   linux/vim.md,
