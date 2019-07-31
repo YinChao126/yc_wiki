@@ -110,6 +110,7 @@ nav:
         
     - 常用工具: 
         - tools: [
+                  tools/超高效率工具.md,
                   tools/icon.md,
                   tools/mkdocs.md,
                   tools/notepad2.md,
