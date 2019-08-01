@@ -116,4 +116,8 @@ nav:
                   tools/notepad2.md,
         ]
 
-    - 随笔文章: []
+    - 随笔文章: 
+        - 段子: [
+                  article/joke/996与007.md,
+        ]
+   

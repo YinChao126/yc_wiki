@@ -9,13 +9,16 @@
 最简单的方式： os.system(cmd_line),例如：
 
 ```python
-
+os.system('ls -al')
 ```
 
 执行要输入密码的shell指令：
 
 ```python
-
+import os
+passwd = '1234567'
+cmd = 'ls -al'
+os.system('echo %s | sudo -S %s' % (passwd, cmd))
 ```
 
 执行一个sh脚本
