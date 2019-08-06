@@ -18,6 +18,7 @@ nav:
                   env_build/tomcat.md,
                   env_build/rabbitmq_server.md,
                   env_build/google_ssr.md,
+                  env_build/阿里云搭建git私有仓库.md,
         ]
     - python: 
         - environment: [
@@ -43,6 +44,7 @@ nav:
                   python/copy.md
         ]
         - useful_module: [
+                  python/useful_module/进程操作.md,
                   python/useful_module/excel操作.md,
                   python/useful_module/tkinter.md,
                   python/useful_module/auto_inform.md,
