@@ -57,7 +57,7 @@ def dict_to_binary(the_dict):
     return binary
 ```
 
-## binary to bytes 
+## binary to dict 
 
 ```python
 def binary_to_dict(the_binary):
@@ -66,6 +66,21 @@ def binary_to_dict(the_binary):
     return d
 ```
 
+## float to bytes
 
+```
+import struct
+float_data = 12.908
+bytes_data = bytearray(struct.pack("f", float_data))
+list_data = list(bytes_data)
+```
+
+## bytes to float
+
+```
+import struct
+bytes_data = b'ffNA'
+float_data = struct.unpack("f", bytes_data)[0]
+```
 
 
