@@ -13,6 +13,9 @@ extra:
 nav:
     - index: index.md
     - about: about.md
+    - basic: [
+                  basic/YAML详解.md,
+    ]
     - 环境搭建: [
                   env_build/my_wiki.md,
                   env_build/tomcat.md,
