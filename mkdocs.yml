@@ -35,6 +35,7 @@ nav:
                   python/pip.md,
         ]
         - basic: [ 
+                  python/package_module.md,
                   python/dict.md,
                   python/file.md,
                   python/dataframe.md,

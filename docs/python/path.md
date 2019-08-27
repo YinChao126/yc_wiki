@@ -12,19 +12,33 @@
 
 ## 获取当前执行脚本的路径
 
-执行脚本路径 = os.path.split(os.path.realpath(__ file __))[0]
+```
+CUR_PATH = os.path.split(os.path.realpath(__ file __))[0]
+```
 
 ## 获取给定路径的父路径
 
+```
 父路径 = os.path.abspath(os.path.join(子路径, os.pardir))
+```
 
 ## 获取当前的工作路径（脚本执行路径不一定是工作路径）
 
+```
 os.getcwd() 
+```
 
 ## 切换工作路径
 
-os.chdir(路径)
+```
+os.chdir(PATH)
+```
+
+## 将当前路径增加到系统搜索
+
+```
+sys.path.append(WORK_PATH)
+```
 
 ## 解析路径和文件名
 
