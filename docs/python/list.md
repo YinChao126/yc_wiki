@@ -27,6 +27,10 @@ ary.append(value) #末尾增加value元素（常用）
 ```python
 t = ary.pop() #t=9, 删除最后一个元素
 a = ary.pop(2) # a=3 删除ary[2]
+ary.remove(7) #删除特定元素7
+del ary[1] #删除ary[1]，即元素2
+del ary[2:4] #删除ary[2]和ary[3]
+del ary #一口气把ary全部清空
 ```
 
 ## 切片（实用技巧）
