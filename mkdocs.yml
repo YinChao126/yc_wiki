@@ -88,6 +88,7 @@ nav:
                   linux/vim.md,
                   linux/压缩解压.md,
                   linux/搜狗输入法安装.md,
+                  linux/自动登录.md,
         ]
     
     - git: 
