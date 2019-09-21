@@ -193,6 +193,8 @@ df =  df.reset_index(drop=True) #method 2
 
 ### 5.3 增加
 
+#### 5.3.1 增加行
+
  如果将增加的记录是dict类型或者series类型
 
 ```python
@@ -201,6 +203,14 @@ df.loc[2] = series_record #方法2， 显式合并
 ```
 
 如果记录是list类型，则先转换为series，再append
+
+`ser_data = pd.series(list_para)`
+
+#### 5.3.2 增加列
+
+假如有一个名为ser_data的series序列需要增加到已有的df中，取名叫'para'，很简单
+
+`df['para'] = ser_data`即可
 
 ### 5.4 删除
 
