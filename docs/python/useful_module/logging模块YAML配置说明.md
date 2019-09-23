@@ -243,9 +243,13 @@ root:
   propagate: no
 ```
 
-## 坑
+## FAQ
 
-运行正常，但是报warning：
+### loggers和handlers中都定义了level，到底以哪一个为准？
+
+很简单，以级别高的为准
+
+### 运行正常，但是报warning?
 
 `YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated,`
 
