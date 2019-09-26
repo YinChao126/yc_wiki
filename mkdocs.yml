@@ -131,8 +131,13 @@ nav:
                   article/joke/程序员漫画.md,
                   article/joke/996与007.md,
         ]
+        
         - 经验: [
                   article/搞了10年技术后学到的7个真理.md,
+        ]
+        
+        - 随笔: [
+                  article/看见中国.md,
         ]
         
    

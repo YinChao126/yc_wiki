@@ -226,6 +226,10 @@ interest_column = ['c1','c2']
 df= df.drop_duplicates(subset=interest_column ,keep='last') #如果interest_column的值相同，则保留后面一条记录，keep='first'则保留前面一条记录
 ```
 
+### 5.6 清空
+
+`df.drop(df.index,inplace=True)`
+
 ## 6.多个DataFrame的合并、拼接
 
 ```python
@@ -246,6 +250,18 @@ df['column_name'].mean() #按列求平均
 
 pd_data.index.tolist()
 
+### 7.3 整列计算
+
+```
+df['col2'] = df['col1'].map(lambda x: x**2) #单列
+df['new_col'] = df.apply(lambda x: x['col1'] + 2 * x['col2'], axis=1)  #多列计算(new_col可以是新增列)
+```
+
+
+
 ## 参考链接
 
 https://www.jianshu.com/p/a6139a1352d6
+
+[python中dataframe常见操作：取行、列、切片、统计特征值](https://blog.csdn.net/tanlangqie/article/details/78656588)
+
