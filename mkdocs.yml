@@ -25,28 +25,32 @@ nav:
         ]
     - python: 
         - environment: [
-                  python/python_setup.md,
-                  python/python_package.md,
-                  python/useful_package.md,
-                  python/PEP8_standard.md,
-                  python/requirements.md,
-                  python/jupyter.md,
-                  python/multi_version.md,
-                  python/pip.md,
+                  python/environment/python_setup.md,
+                  python/environment/python_package.md,
+                  python/environment/useful_package.md,
+                  python/environment/PEP8_standard.md,
+                  python/environment/requirements.md,
+                  python/environment/jupyter.md,
+                  python/environment/multi_version.md,
+                  python/environment/pip.md,
         ]
         - basic: [ 
-                  python/date_time.md,
-                  python/package_module.md,
-                  python/dict.md,
-                  python/file.md,
-                  python/dataframe.md,
-                  python/type.md,
-                  python/list.md,
-                  python/shell.md,
-                  python/network.md,
-                  python/path.md,
-                  python/regular_expression.md,
-                  python/copy.md
+                  python/basic/date_time.md,
+                  python/basic/package_module.md,
+                  python/basic/dict.md,
+                  python/basic/file.md,
+                  python/basic/Series.md,
+                  python/basic/dataframe.md,
+                  python/basic/type.md,
+                  python/basic/map.md,
+                  python/basic/Lambda.md,
+                  python/basic/list.md,
+                  python/basic/shell.md,
+                  python/basic/network.md,
+                  python/basic/path.md,
+                  python/basic/regular_expression.md,
+                  python/basic/迭代器和生成器.md,
+                  python/basic/copy.md
         ]
         - useful_module: [
                   python/useful_module/进程操作.md,
@@ -64,7 +68,7 @@ nav:
                   
         ]
         - tools: [
-                  python/pyinstaller.md,
+                  python/tools/pyinstaller.md,
         ]
                
     - C/C++:  
@@ -138,6 +142,10 @@ nav:
         
         - 随笔: [
                   article/看见中国.md,
+        ]
+        - 新闻: [
+                  article/报纸摘要/breaking_news.md,
+                  article/报纸摘要/精选报纸摘要.md,
         ]
         
    

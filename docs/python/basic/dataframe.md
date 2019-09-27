@@ -204,7 +204,7 @@ df.loc[2] = series_record #方法2， 显式合并
 
 如果记录是list类型，则先转换为series，再append
 
-`ser_data = pd.series(list_para)`
+`ser_data = pd.Series(list_para)`
 
 #### 5.3.2 增加列
 
