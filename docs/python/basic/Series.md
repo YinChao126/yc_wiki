@@ -63,7 +63,12 @@ ser_ex[1:4] = 100 #切片修改
 
 ### 重新设置索引值
 
-`ser_ex = ser_ex.reindex(list('fasd'))`
+```
+ser_ex.index = [1,2,3,4,5] #最简单
+ser_ex.reindex(list('fasd')) #方法2
+```
+
+
 
 ## 5. 查
 
