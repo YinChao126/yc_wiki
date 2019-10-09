@@ -83,4 +83,17 @@ bytes_data = b'ffNA'
 float_data = struct.unpack("f", bytes_data)[0]
 ```
 
+## long int to array
+
+```
+a = 1570602960
+list_a = a.to_bytes(4, byteorder='big')
+```
+
+## array to long int
+
+```
+a = b']\x9d\x7f\xd0'
+int_value = int.from_bytes(a,byteorder='big',signed='True')
+```
 
