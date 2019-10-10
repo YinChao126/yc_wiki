@@ -95,6 +95,7 @@ nav:
                   linux/搜狗输入法安装.md,
                   linux/自动登录.md,
                   linux/ssh登陆与文件拷贝.md,
+                  linux/Linux和Windows共享文件.md,
         ]
     
     - git: 
