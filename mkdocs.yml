@@ -69,6 +69,7 @@ nav:
         ]
         - tools: [
                   python/tools/pyinstaller.md,
+                  python/tools/supervisor详解.md,
         ]
                
     - C/C++:  
