@@ -126,8 +126,12 @@ nav:
     
         ]
         
-    - 常用工具: 
-        - tools: [
+    - 高效率工作: 
+        - 方法: [
+                  tools/OKR工作法.md,
+                  tools/Scrum敏捷框架.md,
+        ]
+        - 工具: [
                   tools/超高效率工具.md,
                   tools/icon.md,
                   tools/mkdocs.md,
