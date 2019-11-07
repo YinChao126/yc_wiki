@@ -39,6 +39,7 @@ nav:
                   python/basic/package_module.md,
                   python/basic/dict.md,
                   python/basic/file.md,
+                  python/basic/json.md,
                   python/basic/Series.md,
                   python/basic/dataframe.md,
                   python/basic/type.md,

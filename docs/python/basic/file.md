@@ -1,4 +1,4 @@
-# 文件及目录操作
+# 文件及文件夹操作
 
 作者：尹超
 
@@ -40,6 +40,17 @@ for (dirpath, dirnames, filenames) in walk(file_path):
     break
 ```
 
+## 判断文件是否存在
+
+```
+import os
+os.path.exists(test_dir)
+```
+
+## 文件删除
+
+`os.remove(file) #删除一个文件`
+
 ## 文件夹创建
 
 ```python
@@ -48,6 +59,15 @@ if not os.path.exists(directory):
 ```
 
 ## 文件夹删除
+
+```
+#删除空文件夹
+os.rmdir(dirname) 
+
+# 强力删除，递归删除文件夹下所有资源
+import shutil
+shutil.rmtree("1")
+```
 
 
 
