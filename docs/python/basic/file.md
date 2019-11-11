@@ -58,13 +58,26 @@ if not os.path.exists(directory):
     os.makedirs(directory)
 ```
 
+## 清空文件夹
+
+```
+def clear_dir(path): #清空文件夹里所有文件，但保留该文件夹
+    for root, dirs, files in os.walk(path, topdown=False):
+        for name in files:
+            os.remove(os.path.join(root, name))
+        for name in dirs:
+            os.rmdir(os.path.join(root, name))
+```
+
+
+
 ## 文件夹删除
 
 ```
 #删除空文件夹
 os.rmdir(dirname) 
 
-# 强力删除，递归删除文件夹下所有资源
+# 强力删除，递归删除包括本文件夹在内的所有资源
 import shutil
 shutil.rmtree("1")
 ```

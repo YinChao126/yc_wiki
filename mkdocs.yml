@@ -59,13 +59,15 @@ nav:
                   python/useful_module/tkinter.md,
                   python/useful_module/auto_inform.md,
                   python/useful_module/crawler_example.md,
-                  python/useful_module/sort_by_num.md,
-                  python/useful_module/聊天机器人.md,
+                  python/useful_module/sort.md,
                   python/useful_module/数据可视化.md,
-                  python/useful_module/买房还是租房.md,
+                  python/useful_module/uart.md,
                   python/useful_module/usb_device.md,
                   python/useful_module/logging实用宝典.md,
                   python/useful_module/logging模块YAML配置说明.md,
+                  python/useful_module/dos2linux.md,
+                  python/useful_module/聊天机器人.md,
+                  python/useful_module/买房还是租房.md,
                   
         ]
         - tools: [
@@ -76,11 +78,13 @@ nav:
     - C/C++:  
         - basic: [ 
                   c/shift.md,
+                  c/json.md,
                   c/inline.md,
                   c/hash.md,
                   c/file.md,
                   c/memory.md,
                   c/strings.md,
+                  c/KMP.md,
                   c/vs2013_err_code.md,
         ]
         - useful_module: [
