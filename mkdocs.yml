@@ -103,6 +103,7 @@ nav:
                   linux/ssh登陆与文件拷贝.md,
                   linux/Linux和Windows共享文件.md,
                   linux/复位usb设备.md,
+                  linux/Raspberry Pi网络问题.md,
         ]
     
     - git: 
