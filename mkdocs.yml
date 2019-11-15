@@ -12,7 +12,8 @@ extra:
     
 nav:
     - index: index.md
-    - about: about.md
+    - 作者简介: 作者简介.md
+    - 技术栈简介: 技术栈简介.md
     - basic: [
                   basic/YAML详解.md,
     ]
