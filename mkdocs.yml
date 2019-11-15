@@ -86,6 +86,7 @@ nav:
                   c/memory.md,
                   c/strings.md,
                   c/KMP.md,
+                  c/AT指令集.md,
                   c/vs2013_err_code.md,
         ]
         - useful_module: [
