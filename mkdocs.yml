@@ -92,8 +92,12 @@ nav:
         ]
         - useful_module: [
                   c/fifo.md,
+                  c/search_directory.md,
+                  c/CSLink单链表.md,
                   c/json.md,
                   c/KMP.md,
+                  c/csv_io.md,
+                  c/pcre正则表达式.md,
                   c/merge_sort.md,
                   c/AT指令集.md,
                   c/serial_port.md,
