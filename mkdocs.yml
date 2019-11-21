@@ -55,6 +55,10 @@ nav:
                   python/basic/copy.md
         ]
         - useful_module: [
+                  python/useful_module/SerialPort.md,
+                  python/useful_module/threading_quit.md,
+                  python/useful_module/app_frozen.md,
+                  python/useful_module/RMQ.md,
                   python/useful_module/进程操作.md,
                   python/useful_module/excel操作.md,
                   python/useful_module/tkinter.md,
@@ -79,19 +83,25 @@ nav:
     - C/C++:  
         - basic: [ 
                   c/shift.md,
-                  c/json.md,
                   c/inline.md,
                   c/hash.md,
                   c/file.md,
                   c/memory.md,
                   c/strings.md,
-                  c/KMP.md,
-                  c/AT指令集.md,
                   c/vs2013_err_code.md,
         ]
         - useful_module: [
+                  c/fifo.md,
+                  c/search_directory.md,
+                  c/CSLink单链表.md,
+                  c/json.md,
+                  c/KMP.md,
+                  c/csv_io.md,
+                  c/pcre正则表达式.md,
                   c/merge_sort.md,
-        
+                  c/AT指令集.md,
+                  c/serial_port.md,
+                  c/makefile.md,
         ]
                
     - linux:  [   
@@ -159,6 +169,10 @@ nav:
                   article/搞了10年技术后学到的7个真理.md,
         ]
         
+        - 牛逼的人: [
+                  article/圈内大佬/雷军.md,
+                  article/圈内大佬/云天励飞_陈宁.md,
+        ]
         - 随笔: [
         ]
         - 新闻: [
