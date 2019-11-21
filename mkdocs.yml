@@ -95,6 +95,7 @@ nav:
         ]
                
     - linux:  [   
+                  linux/source.md,
                   linux/sleep.md,
                   linux/top.md,
                   linux/VM文件共享.md,
