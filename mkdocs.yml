@@ -23,6 +23,7 @@ nav:
                   env_build/rabbitmq_server.md,
                   env_build/google_ssr.md,
                   env_build/阿里云搭建git私有仓库.md,
+                  env_build/win10远程连接.md,
         ]
     - python: 
         - environment: [
