@@ -40,7 +40,13 @@ month = today.month
 day = today.day
 ```
 
+### 获取当前UNIX时间
 
+```
+import time
+unix_time = int(time.time()) #10位，精确到秒
+unix_time = int(round(time.time() * 1000)) #13位，精确到毫秒
+```
 
 ## 工作日判断
 
