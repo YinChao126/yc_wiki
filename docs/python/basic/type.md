@@ -66,6 +66,22 @@ def binary_to_dict(the_binary):
     return d
 ```
 
+## int to bytes
+
+```
+num = -23
+bytes_value = num.to_bytes(1,byteorder='big',signed=True)
+```
+
+bytes to int 
+
+```
+bytes_value = b'\xfb'
+int_value = int.from_bytes(bytes_value, "big", signed=True) 
+```
+
+
+
 ## float to bytes
 
 ```
