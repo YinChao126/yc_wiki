@@ -117,6 +117,7 @@ nav:
                   linux/ssh登陆与文件拷贝.md,
                   linux/Linux和Windows共享文件.md,
                   linux/复位usb设备.md,
+                  linux/开机自启动.md,
                   linux/Ubuntu修改开机画面.md,
                   linux/Raspberry Pi网络问题.md,
         ]
