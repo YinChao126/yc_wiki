@@ -1,5 +1,9 @@
 # 软件优化好用的工具
 
+## keywords
+
+opt,  profile, tools
+
 ## profile工具
 
 linux环境下的profile软件有：gprof,  valgrind

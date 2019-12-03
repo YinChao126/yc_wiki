@@ -4,6 +4,10 @@
 日期：2019-6-22
 描述：本文描述如何在阿里云主机（Ubuntu16.04）搭建Tomcat服务
 
+## keywords
+
+env build, ubuntu, tomcat
+
 ## 大致思路：
 
 1. 配置java环境
@@ -74,8 +78,6 @@ PATH=${JAVA_HOME}/bin:${JRE_HOME}:$PATH
 CLASSPATH=.:${JRE_HOME}/lib/rt.jar:${JAVA_HOME}/lib/dt.jar:${JAVA_HOME}/lib/tools.jar
 TOMCAT_HOME=/opt/tomcat/apache-tomcat-9.0.21
 ```
-
-
 
 #### 3.3 修改tomcat配置 
 

@@ -1,5 +1,9 @@
 # MergeSort归并排序源码
 
+## keywords
+
+merge sort, c
+
 ```c
 #include<stdio.h>
 void merge(int arr1[],int ll1,int ul1,int ll2,int ul2)

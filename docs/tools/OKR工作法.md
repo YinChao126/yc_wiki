@@ -4,6 +4,10 @@
 
 日期：2019-10-8
 
+## keywords
+
+tools, OKR, objective key result
+
 如何愉快地上班？在规定时间内完成任务，越快越好。剩余时间自己学习自己玩。
 
 **Objective : Key Result**

@@ -4,6 +4,10 @@
 
 日期：2019-11-13
 
+## keywords
+
+tools, GTD, E3C, time management
+
 ## 高效率的精髓 —— 精力管理
 
 核心在于构建自己的“**E - 3C** ”系统

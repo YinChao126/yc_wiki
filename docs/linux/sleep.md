@@ -4,6 +4,10 @@
 
 日期：2019-7-25
 
+## keywords
+
+linux,  sleep
+
 ## 背景
 
 在做通信项目的时候需要处理不同线程的数据流匹配问题，在加入sleep(second)延时函数后发现表现有点奇怪，仔细查阅api说明才了解到Linux下sleep函数和windows下的不一样！！！

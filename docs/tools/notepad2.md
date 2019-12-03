@@ -1,5 +1,9 @@
 # notepad2安装与默认配置
 
+## keywords
+
+tools, notepad
+
 notepad2是一个比windows自带txt好用的文本编辑器，如何将notepad2设置为默认打开呢？
 
 实现步骤：

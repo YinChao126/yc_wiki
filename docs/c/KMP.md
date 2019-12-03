@@ -4,6 +4,10 @@
 
 日期：2017-4-1
 
+## keywords
+
+c, KMP, string searching
+
 ## KMP.c
 
 ```

@@ -1,5 +1,9 @@
 # Linux更新源
 
+## keywords
+
+linux,  source, update
+
 ## 1.先备份
 
 `sudo cp /etc/apt/sources.list /etc/apt/sources.list.bck`

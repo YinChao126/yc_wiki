@@ -1,5 +1,9 @@
 # Linux SerialPort Driver
 
+## keywords
+
+linux, c++, serial port, com port, driver
+
 ## 说明
 
 本模块是搜集来的Linux系统串口驱动，直接可用。

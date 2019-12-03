@@ -1,5 +1,9 @@
 # VIM中文乱码解决
 
+## keywords
+
+linux, vim, chinese language, error
+
 直接在/etc/vim/vimrc环境下添加三行代码即可
 
 ```

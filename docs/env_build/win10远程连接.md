@@ -4,6 +4,10 @@
 
 日期：2019-11-13
 
+## keywords
+
+env build,  win10, remote connection
+
 ## 需求：
 
 假设A和B在同一个局域网内，A需要远程登陆B

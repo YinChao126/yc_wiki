@@ -4,6 +4,10 @@
 
 日期：2019-10-10
 
+## keywords
+
+linux,  ssh, file copy, remote login
+
 ## linux实现SSH远程登陆
 
 `ssh user@ip`

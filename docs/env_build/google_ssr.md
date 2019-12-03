@@ -4,9 +4,11 @@
 
 日期：2019-6-28
 
-背景：科学上网哪家强，谷歌免费VPN（SSR）帮你忙
+## keywords
 
+env build, VPN, google, SSR 
 
+科学上网哪家强，谷歌免费VPN（SSR）帮你忙
 
 ## 大致思路
 

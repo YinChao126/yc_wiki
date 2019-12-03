@@ -4,6 +4,10 @@
 
 日期：2017-4-1
 
+## keywords
+
+opt, exp, fast 
+
 ```c
 double FastExp(double y)
 {

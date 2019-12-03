@@ -4,6 +4,10 @@
 
 日期：2019-11-14
 
+## keywords
+
+linux,  network, raspberry, driver
+
 ## 症状
 
 可以ping通公网IP，但是无法解析网页（例如无法百度）

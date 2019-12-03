@@ -4,6 +4,10 @@
 
 日期：2018-10-20
 
+## keywords
+
+env build,  ubuntu, rabbitmq, RMQ
+
 ## 1. 大致思路
 
 - 先安装erlang

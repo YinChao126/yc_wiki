@@ -1,5 +1,9 @@
 # string字符串操作
 
+## keywords
+
+c, string
+
 ## 头文件
 
 #include<string.h>

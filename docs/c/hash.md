@@ -1,5 +1,9 @@
 # hash哈希算法
 
+## keywords
+
+c++, hash
+
 [从头到尾解析哈希算法（pdf）](解析Hash表算法.pdf)
 
 ```c

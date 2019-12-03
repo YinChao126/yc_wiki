@@ -4,6 +4,10 @@
 
 日期：2019-11-25
 
+## keywords
+
+linux,  ubuntu, startup
+
 ## 开机显示部分
 
 相关文件: `/etc/default/grub`.

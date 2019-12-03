@@ -4,6 +4,10 @@
 
 日期：2019-5-28
 
+## keywords
+
+env build,  alicloud, git, private repetory
+
 ## 需求
 
 要将项目托管便于管理，但是又不想用GitHub这种开源软件。所以打算将git服务托管到阿里云上（显然也可以部署到自己的私有服务器上）。

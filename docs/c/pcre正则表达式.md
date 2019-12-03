@@ -4,6 +4,10 @@
 
 日期：2018-5-1
 
+## keywords
+
+c, pcre, regular expression, driver
+
 ## 1. pcre简介
 
 pcre能够在C的环境下实现正则表达式的功能（原生的C是不支持该特性的）

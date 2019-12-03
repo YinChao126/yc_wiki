@@ -4,6 +4,10 @@
 
 日期：2018-5-29
 
+## keywords
+
+c, search, filename, file
+
 ## 描述
 
 本模块用来实现特定文件夹下的文件名搜索

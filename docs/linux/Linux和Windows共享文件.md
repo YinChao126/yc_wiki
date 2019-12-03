@@ -4,6 +4,10 @@
 
 日期：2019-10-10
 
+## keywords
+
+linux, windows, file share
+
 ## 前提：
 
 处于同一个局域网内，相互之间能ping通

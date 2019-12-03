@@ -1,5 +1,9 @@
 # 关于文件读写的问题
 
+## keywords
+
+c, file, filename
+
 ## 文件读写操作
 
 [文件读写实现参考链接](http://www.360doc.com/content/13/0401/09/11764545_275223195.shtml#)
