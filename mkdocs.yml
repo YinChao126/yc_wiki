@@ -27,6 +27,7 @@ nav:
                   env_build/google_ssr.md,
                   env_build/阿里云搭建git私有仓库.md,
                   env_build/win10远程连接.md,
+                  env_build/win10下office激活方法.md,
         ]
     - python: 
         - environment: [
@@ -97,6 +98,7 @@ nav:
         ]
         - useful_module: [
                   c/fifo.md,
+                  c/stack.md,
                   c/search_directory.md,
                   c/CSLink单链表.md,
                   c/json.md,
@@ -126,6 +128,11 @@ nav:
                   linux/Raspberry Pi网络问题.md,
         ]
     
+               
+    - 嵌入式:  [   
+                  embedded_system/ADSP指令周期数简易评估方法.md,
+        ]
+        
     - git: 
         - environment: [
                   git/local_git.md, 
@@ -143,6 +150,7 @@ nav:
     - 优化技术: [
                   opt/优化技术综述.md,
                   opt/exp近似运算.md,
+                  opt/fast_sqrt.md,
                   opt/log快速计算.md,
                   opt/profile工具.md,
                   opt/除法运算.md,
@@ -164,6 +172,7 @@ nav:
                   tools/icon.md,
                   tools/mkdocs.md,
                   tools/notepad2.md,
+                  tools/google加速.md,
         ]
 
     - 随笔文章: 
