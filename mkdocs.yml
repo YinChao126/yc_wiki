@@ -16,11 +16,14 @@ nav:
     - 技术栈简介: 技术栈简介.md
     - basic: [
                   basic/YAML详解.md,
+                  basic/线程进程.md,
+                  basic/软件自恢复综述.md,
     ]
     - 环境搭建: [
                   env_build/my_wiki.md,
                   env_build/tomcat.md,
                   env_build/rabbitmq_server.md,
+                  env_build/RabbitMQ配置使用SSL加密通信.md,
                   env_build/google_ssr.md,
                   env_build/阿里云搭建git私有仓库.md,
                   env_build/win10远程连接.md,
@@ -37,6 +40,7 @@ nav:
                   python/environment/pip.md,
         ]
         - basic: [ 
+                  python/basic/string.md,
                   python/basic/date_time.md,
                   python/basic/package_module.md,
                   python/basic/dict.md,
