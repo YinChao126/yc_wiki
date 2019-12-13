@@ -10,6 +10,24 @@
 - rabbitmq-server  3.5.7
 - openssl  1.0.2g
 
+## 大致步骤
+
+### server端配置
+
+1. 安装openssl
+2. 生成证书文件夹（ssl）并拷贝到rabbitmq安装目录下
+3. 配置rabbitmq.conf文件
+4. server开放5671端口（入方向）
+5. 增加rabbitmq新用户
+6. 重启rabbitmq服务
+
+### client端配置
+
+1. 将server生成的证书文件夹ssl保存到本地
+2. 源码中进行相应配置即可
+
+## 实际操作步骤
+
 ## 安装openssl
 
 ```bash
@@ -37,6 +55,8 @@ sh create_client_cert.sh {your-client-name} {passwd}
 ##  服务端配置
 
 服务端需要上面生成的 `ca` 和 `server` 文件夹, 拷贝到`/etc/rabbitmq/ssl` 目录下, 如果此目录不存在就手动创建.
+
+`cp -a ssl /etc/rabbitmq/`
 
 修改 `/etc/rabbitmq/rabbitmq.config` 文件, 添加以下内容, 注意替换其中的 `{your-hostname}`,  如果此文件不存在则直接创建:
 
@@ -258,7 +278,19 @@ sudo rabbitmqctl set_permissions -p '/' admin '.' '.' '.'
 sudo service rabbitmq-server restart
 ```
 
+## FAQ
 
+### server端增加用户或者重启rmq服务失败
+
+可能的原因：配置rabbitmq.conf文件出了错，大概率是由于逗号引起的json格式非法。
+
+解决方案：重点检查一下json文件的完整性（多少一个逗号都会出错）
+
+### 启动后SSL连接被拒绝
+
+可能的原因：server的端口没有开启（入方向） 
+
+解决方案：防火墙打开5671端口即可
 
 ## 引用
 
