@@ -127,6 +127,8 @@ nav:
                   linux/复位usb设备.md,
                   linux/开机自启动.md,
                   linux/Ubuntu修改开机画面.md,
+                  linux/close_update.md,
+                  linux/make_iso.md,
                   linux/Raspberry Pi网络问题.md,
         ]
     
