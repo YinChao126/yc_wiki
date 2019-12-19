@@ -146,6 +146,8 @@ nav:
                   git/add.md,
                   git/clear.md,
                   git/branch.md,
+                  git/resize_git.md,
+                  git/remove_commit.md,
                   git/branch_recovery.md
         ]
         
