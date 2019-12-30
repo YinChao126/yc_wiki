@@ -65,6 +65,7 @@ nav:
                   python/useful_module/threading_quit.md,
                   python/useful_module/app_frozen.md,
                   python/useful_module/RMQ.md,
+                  python/useful_module/SSH连接.md,
                   python/useful_module/进程操作.md,
                   python/useful_module/IPC通信.md,
                   python/useful_module/excel操作.md,
