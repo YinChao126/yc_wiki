@@ -154,6 +154,10 @@ nav:
                   git/branch_recovery.md
         ]
         
+    - docker: [
+                  docker/Docker基础教程.md,
+                  docker/Docker命令一览表.md,
+        ]
     - 优化技术: [
                   opt/优化技术综述.md,
                   opt/exp近似运算.md,
