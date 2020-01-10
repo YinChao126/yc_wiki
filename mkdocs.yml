@@ -28,6 +28,7 @@ nav:
                   env_build/阿里云搭建git私有仓库.md,
                   env_build/win10远程连接.md,
                   env_build/win10下office激活方法.md,
+                  env_build/telnet.md,
         ]
     - python: 
         - environment: [
